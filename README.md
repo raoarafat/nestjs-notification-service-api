@@ -39,6 +39,8 @@ I have written Unit Testing for core of the application and it is Dockerized.
 $ npm install
 ```
 
+[Docker Install](https://docs.docker.com/get-docker/).
+
 ## Running the app
 
 ```bash
