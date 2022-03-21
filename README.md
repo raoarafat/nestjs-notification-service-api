@@ -26,6 +26,13 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+This is Notification API which sends Notifications to different channels(Web UI, Email, Push, Faceboob etc). There is no third party service invlove to send real time notifications. 
+
+I have written Unit Testing for core of the application and it is Dockerized.
+
+  ## NOTE
+  I have left console logs intentionally, to debug and understand the flow.
+
 ## Installation
 
 ```bash
