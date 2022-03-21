@@ -47,6 +47,8 @@ $ npm run start:prod
 
 ## Docker Running the app
 
+[Docker Install](https://docs.docker.com/get-docker/).
+
 ```bash
 # development mode
 $ docker-compose up dev
