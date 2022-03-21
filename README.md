@@ -26,7 +26,7 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-This is Notification API which sends Notifications to different channels(Web UI, Email, Push, Faceboob etc). There is no third party service invlove to send real time notifications. It consist of 2 end point Post(Send Notifications) & Get(Web UI Notifications).
+This is Notification API which sends Notifications to different channels(Web UI, Email, Push, Facebook etc). There is no third party service involved to send real time notifications as it is just static site get an idea of how Notifications service work. It consist of 2 end point Post(Send Notifications) & Get(Web UI Notifications).
 
 I have written Unit Testing for core of the application and it is Dockerized.
 
