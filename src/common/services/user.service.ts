@@ -5,6 +5,7 @@ import { UserModel } from '../model/user-model';
 @Injectable()
 export class UserService {
   // methods
+  // TODO : data come from API
   getUsers(): UserModel[] {
     return userData as UserModel[];
   }
