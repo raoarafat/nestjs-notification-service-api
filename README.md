@@ -26,7 +26,7 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-This is Notification API which sends Notifications to different channels(Web UI, Email, Push, Faceboob etc). There is no third party service invlove to send real time notifications. 
+This is Notification API which sends Notifications to different channels(Web UI, Email, Push, Faceboob etc). There is no third party service invlove to send real time notifications. It consist of 2 end point Post(Send Notifications) & Get(Web UI Notifications).
 
 I have written Unit Testing for core of the application and it is Dockerized.
 
@@ -65,6 +65,34 @@ $ docker-compose up dev
 # production mode
 $ docker-compose up prod
 ```
+
+## Run through Postman
+
+POST: http://localhost:3000/notification
+
+Body
+
+// Web Payload
+{
+  "companyId": "g3a6e106-2dc7-45f0-b650-08d7cee9439e",
+  "userId": "bba6e106-2dc7-45f0-b650-08d7cee943rr",
+  "notificationType": "happy-birthday",
+  "notificationChannel": "Web"
+}
+
+OR 
+
+// Email Payload
+{
+    "companyId": "xxa6e106-2dc7-45f0-b650-08d7cee943dd",
+    "userId": "cca6e106-2dc7-45f0-b650-08d7cee94394",
+    "notificationType": "monthly-payslip",
+    "notificationChannel": "Email"
+}
+
+Get UI Notification List By UserId
+
+GET: http://localhost:3000/notification/web/userId/f3a6e106-2dc7-45f0-b650-08d7cee94390
 
 ## Test
 
