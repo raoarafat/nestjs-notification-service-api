@@ -1,0 +1,17 @@
+[
+    {
+      "type": "leave-balance-reminder",
+      "title": "Leave Reminder",
+      "content": "You have ${leave} leaves remaining"
+    },
+    {
+      "type": "happy-birthday",
+      "title": "Happy Birthday!!",
+      "content": "Happy Birthday {0}"
+    },
+    {
+      "type": "monthly-payslip",
+      "title": "Monthly Payslip",
+      "content": "Attached is your ${month} payslip"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id": "g3a6e106-2dc7-45f0-b650-08d7cee9439e",
+        "name": "Netflix",
+        "notificationSettings":{
+            "web": true,
+            "email": false
+        }
+    },
+    {
+        "id": "xxa6e106-2dc7-45f0-b650-08d7cee943dd",
+        "name": "Facebook",
+        "notificationSettings":{
+            "web": false,
+            "email": true
+        }
+    }
+]

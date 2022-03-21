@@ -1,0 +1,35 @@
+[
+  {
+    "id": "f3a6e106-2dc7-45f0-b650-08d7cee94390",
+    "companyId": "g3a6e106-2dc7-45f0-b650-08d7cee9439e",
+    "email": "Alex@yopmail.com",
+    "firstName": "Alex",
+    "lastName": "Tony",
+    "notificationSettings": {
+      "web": true,
+      "email": false
+    }
+  },
+  {
+    "id": "cca6e106-2dc7-45f0-b650-08d7cee94394",
+    "companyId": "xxa6e106-2dc7-45f0-b650-08d7cee943dd",
+    "email": "Honda@yopmail.com",
+    "firstName": "Honda",
+    "lastName": "Yakoti",
+    "notificationSettings": {
+      "web": false,
+      "email": true
+    }
+  },
+  {
+    "id": "bba6e106-2dc7-45f0-b650-08d7cee943rr",
+    "companyId": "g3a6e106-2dc7-45f0-b650-08d7cee9439e",
+    "email": "Lim@yopmail.com",
+    "firstName": "Lim",
+    "lastName": "Yan",
+    "notificationSettings": {
+      "web": true,
+      "email": true
+    }
+  }
+]
