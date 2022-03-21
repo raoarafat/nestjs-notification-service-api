@@ -1,5 +1,4 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { EmailModel } from '../model/email-model';
 import { WebModel } from '../model/web-model';
 import { WebNotificationService } from './web-notification.service';
 
